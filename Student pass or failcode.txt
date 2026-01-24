@@ -1,0 +1,6 @@
+marks = float(input("Enter student marks: "))
+
+if marks >= 40:
+    print("Result: PASS")
+else:
+    print("Result: FAIL")
