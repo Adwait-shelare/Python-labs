@@ -1,0 +1,9 @@
+# Read three space-separated digits
+digits = input().split()
+
+# Generate all possible 3-digit combinations using each digit exactly once
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            if i != j and j != k and i != k:
+                print(digits[i] + digits[j] + digits[k])
