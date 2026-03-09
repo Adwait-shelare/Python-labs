@@ -1,0 +1,6 @@
+a= input()
+chk=""
+for i in a:
+	if i.isalnum() or i.isspace():
+		chk += i
+print(chk)
